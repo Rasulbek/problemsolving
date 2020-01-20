@@ -32,7 +32,7 @@ class Difference {
 
 } // End of Difference class
 
-public class Difference30 {
+class Difference30 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
