@@ -18,10 +18,9 @@ public class CurrencyFormat {
         String france = franceFormat.format(payment);
 
 
-        Locale inLocale = new Locale("en", "India");
+        Locale inLocale = new Locale("en", "IN");
         NumberFormat indiaFormat = NumberFormat.getCurrencyInstance(inLocale);
-        String formatted = indiaFormat.format(payment);
-        String india = "Rs." + formatted.substring(1);
+        String india = indiaFormat.format(payment);
 
         System.out.println("US: " + us);
         System.out.println("India: " + india);
