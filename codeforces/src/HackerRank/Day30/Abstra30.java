@@ -1,4 +1,4 @@
-package HackerRank;
+package HackerRank.Day30;
 
 import java.util.*;
 

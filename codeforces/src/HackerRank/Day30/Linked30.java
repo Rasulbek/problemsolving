@@ -1,5 +1,4 @@
-package HackerRank;
-import java.io.*;
+package HackerRank.Day30;
 import java.util.*;
 
 class Node {
