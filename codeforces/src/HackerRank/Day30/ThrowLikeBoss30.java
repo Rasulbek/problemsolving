@@ -12,7 +12,7 @@ class Calculator {
     }
 }
 
-public class StandartIOs {
+public class ThrowLikeBoss30 {
 
     public static void main(String[] args) {
 
