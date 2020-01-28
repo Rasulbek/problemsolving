@@ -2,7 +2,7 @@ package HackerRank.Day30;
 
 import java.util.Scanner;
 
-class Calculator {
+class Calculator1 {
 
     public int power(int n, int p) throws Exception {
         if (n < 0 || p < 0) {
@@ -22,7 +22,7 @@ public class ThrowLikeBoss30 {
 
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
+            Calculator1 myCalculator = new Calculator1();
             try {
                 int ans = myCalculator.power(n, p);
                 System.out.println(ans);
