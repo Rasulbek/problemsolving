@@ -1,10 +1,10 @@
 package HackerRank.Day30;
 import java.util.*;
 
-class Node {
+class NodeL {
     int data;
-    Node next;
-    Node(int d) {
+    NodeL next;
+    NodeL(int d) {
         data = d;
         next = null;
     }
@@ -12,11 +12,11 @@ class Node {
 
 class Linked30 {
 
-    public static  Node insert(Node head,int data) {
+    public static  NodeL insert(NodeL head,int data) {
         if (head == null) {
-            return new Node(data);
+            return new NodeL(data);
         }
-        Node next = head;
+        NodeL next = head;
         boolean isNext = true;
         while (isNext) {
             if (next.next == null) {
@@ -25,12 +25,12 @@ class Linked30 {
                 next = next.next;
             }
         }
-        next.next = new Node(data);
+        next.next = new NodeL(data);
         return head;
     }
 
-    public static void display(Node head) {
-        Node start = head;
+    public static void display(NodeL head) {
+        NodeL start = head;
         while(start != null) {
             System.out.print(start.data + " ");
             start = start.next;
@@ -39,7 +39,7 @@ class Linked30 {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        Node head = null;
+        NodeL head = null;
         int N = sc.nextInt();
 
         while(N-- > 0) {
